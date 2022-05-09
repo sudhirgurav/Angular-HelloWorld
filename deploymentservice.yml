@@ -15,8 +15,8 @@ spec:
         app: angular 
     spec:
       containers:
-      - name: nodeserver
-        image: sudhiracrdemo.azurecr.io/alpha:latest
+      - name: alpha
+        image: sudhiracrdemo.azurecr.io/alpha:56
         ports:
         - containerPort: 3000
         
