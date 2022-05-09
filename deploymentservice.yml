@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: sudhiracrdemo.azurecr.io/aksapp:latest
+        image: sudhiracrdemo.azurecr.io/alpha:latest
         ports:
         - containerPort: 3000
         
