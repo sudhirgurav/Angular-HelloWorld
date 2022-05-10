@@ -15,8 +15,8 @@ spec:
         app: angular 
     spec:
       containers:
-      - name: alpha
-        image: sudhiracrdemo.azurecr.io/alpha:56
+      - name: beta
+        image: sudhirgurav24/sudhirdockerrepo:latest
         ports:
         - containerPort: 3000
         
