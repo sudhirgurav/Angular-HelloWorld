@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: beta
-        image: sudhirgurav24/sudhirdockerrepo:latest
+        image: sudhirgurav24/sudhirdockerrepo:63
         ports:
         - containerPort: 3000
         
