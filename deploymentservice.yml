@@ -15,7 +15,7 @@ spec:
         app: angular 
     spec:
       containers:
-      - name: beta
+      - name: angular
         image: sudhirgurav24/sudhirdockerrepo:latest
         ports:
         - containerPort: 3000
