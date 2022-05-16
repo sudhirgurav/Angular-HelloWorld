@@ -11,8 +11,8 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '45d4ebaf-9be1-4f65-808a-a0f37f6a2718'
-  imageRepository: 'letscreate'
-  containerRegistry: 'sudhiracrdemo.azurecr.io'
+  imageRepository: 'beta'
+  containerRegistry: 'sudhirgurav24/sudhirdockerrepo'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
