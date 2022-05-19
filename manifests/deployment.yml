@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: angularhelloworldnew 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: angularhelloworldnew
+  template:
+    metadata:
+      labels:
+        app: angularhelloworldnew 
+    spec:
+      containers:
+        - name: angularhelloworldnew 
+          image: sudhirnewacr.azurecr.io/angularhelloworldnew
+          ports:
+          - containerPort: 3000
